@@ -1,0 +1,1 @@
+this is a small project to learn dom model using dom functions and to learn javascript
