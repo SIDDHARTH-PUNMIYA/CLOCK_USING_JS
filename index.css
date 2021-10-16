@@ -1,0 +1,39 @@
+#clkcont{
+    position: relative;
+height: 40vw;
+width: 40vw;
+background: url(img/clock.jpg) no-repeat ;
+background-size: 100%;
+margin: auto;
+
+}
+#hour, #min , #sec{
+position: absolute;
+background: black;
+border-radius: 10px;
+transform-origin: bottom;
+}
+#hour{
+    width: 0.9%;
+    height: 9.7%;
+    top: 24%;
+    right: 50.1%;
+    /* display: none;    */
+}
+
+#min{
+    width: 0.75%;
+    height: 13%;
+    top: 20.7%;
+    right: 50.1%;
+  /* display: none; */
+ 
+    }
+
+#sec{
+    width: 0.6%;
+height: 16.7%;
+top: 17%;
+right: 50.2%;
+/* display: none; */
+    }
